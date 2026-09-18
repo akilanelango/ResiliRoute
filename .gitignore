@@ -1,0 +1,25 @@
+# Environments & Cache
+__pycache__/
+*.pyc
+.env
+venv/
+miniconda3/
+
+# Data & Model Weights
+data/
+weights/
+segment-anything/
+*.tif
+*.tiff
+*.pth
+
+# Output Artifacts & Logs
+*.log
+*.kml
+*.csv
+*.png
+milestone2_verification.png
+milestone3_routing.png
+resiliroute_output.kml
+resiliroute_trajectory.csv
+PAT.txt
